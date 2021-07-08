@@ -1,0 +1,79 @@
+body{
+    background-image: url(aboutUsBack.jpg);
+     background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.quoteDiv{
+    margin: 10px;
+}
+.text{
+    float: left;
+}
+.imageBeats img{
+    float: right;
+}
+
+.about-us .quote{
+    
+    padding: 10px 20px 10px 20px;
+    background-color:rgba(255,255,255,0.5);
+    text-align: center;
+}
+.about-us .quote h2{
+    font-size: 50px;
+}
+.para-for-Quote{
+    padding-top: 30px;
+    font-size: 25px;
+    text-align: center;
+    background-color:rgba(253, 231, 231, 0.5);
+    font-family: 'Akaya Kanadaka', cursive;
+
+}
+.Beatsbuzz{
+    margin: 20px;
+}
+.buttons button{
+    margin-left: 600px;
+    
+    
+}
+.Beatsbuzz h2{
+    font-family: 'Akaya Kanadaka', cursive;
+    font-size: 80px;
+}
+.Beatsbuzz img{
+    
+    width: 100px;
+    border-radius: 50%;
+}
+@media (max-width: 700px) {
+    .col-6{
+        flex: none;
+        max-width: 100%;
+        margin: auto;
+    }
+   .about-us .quote h2{
+    font-size: 30px;
+}
+  
+    html, body {
+  overflow-x: hidden;
+    }
+    body {
+    position: relative
+    }
+    .text{
+    float:none;
+}
+.imageBeats img{
+    float: none;
+}
+.Beatsbuzz h2{
+    font-size: 50px;
+}
+.buttons button{
+    margin: auto;
+}
+}
